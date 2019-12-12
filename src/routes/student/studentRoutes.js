@@ -12,7 +12,7 @@ studentRouter.get('/', (req, res, next) => {
 })
 
 studentRouter.use((req, res) => {
-    studentModel.createStudentRecord(mocks.createMockStudent())
+    studentModel.createStudentRecord(req.body)
     res.send(res.body)
 })
 

@@ -31,7 +31,7 @@ The `/src` folder contains:
 - `/models` - write and read entities to and from the database
 - `/routes` - request handlers using the Express router which call on models to perform database operations, and return data to the client
 - `/routes/router.js` - is an index for all routes in the application
-- `/index.js` - contains express app object and application-wide middleware such as logging and security headers
+- `/app.js` - contains express app object and application-wide middleware such as logging and security headers
 
 The `/sql` folder contains:
 
